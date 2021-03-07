@@ -14,10 +14,6 @@ header {
 main {
   width: 960px;
   margin: 50px auto;
-  display: flex;
-}
-
-div {
   display: block;
 }
 
@@ -75,4 +71,44 @@ p {
 footer {
   height: 50px;
   background-color: #aaaaaa;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  main {
+    width: 90%;
+    display: block;
+    margin: 50px auto;
+  }
+
+  .step-box {
+    width: 100%;
+  }
+
+  div {
+    display: block;
+  }
+
+  .step-box:nth-child(1) {
+    margin-bottom: 20px;
+  }
+
+  .step-box:nth-child(2) {
+    margin-bottom: 20px;
+  }
+
+  .step-img1 {
+    height: 150px;
+  }
+
+  .step-img2 {
+    height: 150px;
+  }
+
+  .step-img3 {
+    height: 150px;
+  }
 }
